@@ -1,0 +1,74 @@
+
+
+
+#navbar{
+
+ background-color: black;
+}     
+a{
+  color: deepskyblue;
+}
+
+body{
+    background: black;
+}
+
+.talla{
+    color: deepskyblue;
+    
+}
+
+.product_size{
+    color:deepskyblue;
+    list-style: none; 
+}
+
+.cart_button{
+   text-align: center;
+   padding: 3%;
+    color: black;
+    box-shadow: 0 12px 16px deepskyblue;
+}
+
+.puntos{
+    color: azure;
+}
+
+.referencia{
+    color: deepskyblue;
+}
+
+.product_quantity_container{
+    margin-bottom: 3%;
+}
+.product_image_large img {
+    max-width: 100%;
+}
+img {
+    vertical-align: middle;
+    
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px deepskyblue;
+}
+
+.product_quantity_container{
+    background: black ;
+    color: deepskyblue;
+}
+
+.product_size_container{
+    background: black ;
+    color: deepskyblue;
+}
+
+@media only screen and (max-width: 767px) {
+    .cart_button{
+        text-align: center;
+        padding: 3%;
+         color: black;
+         box-shadow: 0 12px 16px deepskyblue;
+         display: block;
+     }
+      }
+
+      

@@ -1,0 +1,169 @@
+
+
+/*containers con su respectivo responsive*/
+
+.container1{
+    width: 100%;
+    
+    background: black;
+}
+
+.img1{
+    
+        background-image: url(img/man-1282232.jpg);
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        border: 5px solid black;
+      
+    
+}
+
+.img4{
+    
+   background-color: black;
+   
+    border: 5px solid black;
+  
+
+}
+
+
+
+.container3{
+    background-color: chartreuse;
+   
+   
+    
+}
+
+
+.container4,.container5,.container6{
+  background-color: black;
+  border: 5px solid chartreuse ;
+ 
+}
+
+#comprar{
+  margin-top: 2%;
+background: black;
+ color: chartreuse;
+ 
+ box-shadow: 0 10px 10px chartreuse;
+ 
+}
+.mapa{
+  background-image: url(img/street-map-2679271.jpg);
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-left: 4px solid black;
+    border-top: 4px solid black;
+    border-right: 4px solid black;
+    border-bottom: 4px solid chartreuse ;
+}
+
+
+
+#navbar{
+
+ background-color: black;
+}     
+a{
+  color: chartreuse;
+}
+
+.titulos{
+  width: 100%;
+  color:chartreuse;
+  background: black;
+  font-size: 30px;
+  text-align: center;
+ padding: 1%;
+}
+
+
+
+
+
+
+      /*estilos para lo del contacto*/
+      .tw{
+         color: black;
+          font-size: 160px;
+      }
+
+     
+
+      @media only screen and (max-width: 767px) {
+        .mapa{
+          /* The file size of this background image is 93% smaller
+           * to improve page load speed on mobile internet connections */
+          display: none;
+          
+        }
+
+        #comprar{
+          display: block;
+          }
+        .titulos{
+          
+            width: 100%;
+            color:chartreuse;
+            background: black;
+            font-size: 15px;
+            text-align: center;
+           border-top: 1px solid chartreuse;
+          
+        }
+
+        .row{
+          text-align: center;
+        }
+
+        
+            .card{
+              
+               display: inline-block;
+               margin: 0%;
+               padding: 0%;
+               border-left: 2px solid black;
+               background-color: black;
+               opacity: 0.8;
+               color: white;
+                
+              }
+
+              .container4,.container5,.container6{
+                background-color: black;
+               
+              }
+
+              .navbar{
+                padding: 2%;
+              }
+
+             
+        }
+
+      
+    
+        /*card*/
+        .card{
+            margin: 4%;
+            border: 3px solid chartreuse;
+           
+            
+            
+        }
+
+        .card:hover{
+          transform: translateY(-15px);
+          box-shadow: 0 12px 16px chartreuse;
+        }
